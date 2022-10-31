@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.size13 {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.size14 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.size19 {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.size20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.size29 {
+  font-size: 29px;
+  line-height: 42px;
+}
+
+.size31 {
+  font-size: 31px;
+  line-height: 50px;
+}
+
+.color-ab {
+  color: #ABABFA;
+}
+
+.color4 {
+  color: #413E52;
+}
+
+.color5 {
+  color: #5C5CFF;
+}
+
+.colorf {
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.df {
+  display: flex;
+  align-items: center;
+}
+
+.head-top {
+  height: 44px;
+  background: #111131;
+  gap: 10px;
+  justify-content: center;
+}
+
+.main-nav {
+  height: 84px;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 16px rgba(17, 17, 49, 0.12);
+}
+.main-nav nav {
+  justify-content: space-between;
+}
+.main-nav nav .left-nav {
+  gap: 40px;
+}
+.main-nav nav .left-nav .size {
+  height: 35px;
+}
+.main-nav nav .left-nav ul {
+  gap: 25px;
+  list-style: none;
+}
+.main-nav nav .right-nav .btn-search {
+  gap: 20px;
+}
+.main-nav nav .right-nav .btn-search .btn-sub {
+  height: 40px;
+  width: 100px;
+  justify-content: center;
+  background-color: #5C5CFF;
+  border-radius: 3px;
+}
+.main-nav nav .right-nav img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=style.css.map */
